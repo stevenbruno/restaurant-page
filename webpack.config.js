@@ -11,4 +11,13 @@ module.exports = {
     aggregateTimeout: 600,
     ignored: /node_modules/,
   },
+  mode: 'development',
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
+    ],
+  },
 };
