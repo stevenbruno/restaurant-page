@@ -1,0 +1,3 @@
+const showMenu = () => alert('menu');
+
+export { showMenu };
