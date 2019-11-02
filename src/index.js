@@ -1,4 +1,4 @@
 import 'normalize.css';
-import generatePage from '../generatePage';
+import { generatePage } from '../generatePage';
 
 generatePage();
